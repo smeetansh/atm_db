@@ -1,0 +1,39 @@
+git init
+git status
+git add .
+git remote add origin https://github.com/smeetansh/test_dtag.git
+git commit -m . " comments"
+git push -u origin master
+-------
+atm_db 
+-------
+…or create a new repository on the command line
+echo "# atm_db" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:smeetansh/atm_db.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:smeetansh/atm_db.git
+  or 
+git remote add origin https://github.com/smeetansh/atm_db.git
+git push -u origin master
+
+http://rtyley.github.io/bfg-repo-cleaner/#usage
+
+git clone --mirror git@github.com:smeetansh/test_dtag.git
+
+git remote add origin https://github.com/smeetansh/atm_db.git
+git push -u https://github.com/smeetansh/atm_db.git
+
+
+
+--------------------------------------------------------
+creating a branch
+git branch mr_test_branch_1
+git checkout mr_test_branch_1
+
+git remote -v
+git fetch origin
